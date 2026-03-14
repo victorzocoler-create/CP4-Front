@@ -67,15 +67,24 @@ body{
     
 }
 
+
 h1 span{
     color: #00ffff;
 
 }
 
 .texto{
-    max-width: 430px;
+    max-width: 450px;
     text-align: center;
     
+}
+
+.texto h1{
+    margin: 0 0 20px 0;
+}
+
+.texto p{
+    margin: 0 0 20px 0;
 }
 
 .imagem{
@@ -133,13 +142,11 @@ h1 span{
 }
 
 .card h1{
-    font-size: 35px;
+    font-size: 17px;
+    margin: 10px 0 7px 0;
 }
 
-.card p{
-    font-size: 20px;
-    color: #cfcfcf;
-}
+
 
 .footer{
     color:white;
@@ -163,4 +170,15 @@ h1 span{
 
 .coluna p:hover{
     color:#00d4ff;
+}
+
+.social{
+    color: #00ffff;
+    margin: 10px;
+}
+.icones{
+    margin-left:  50px;
+    
+
+    
 }

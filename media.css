@@ -1,0 +1,89 @@
+@media(max-width: 600px){
+    
+    
+    
+    .menu{
+        
+       gap: 15px;
+       margin-right: 8%;
+        
+    }
+
+    .logo{
+        font-size: 15px;
+        margin-left: 15%;
+    }
+
+    .logo h1{
+        font-size: 20px;
+    }
+
+    
+
+    .menu p{
+        font-size: 8px;
+    }
+
+    .login{
+        padding: 4px 24px;
+    }
+
+    
+    .bloco{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .bloco1, .bloco{
+        flex-direction: column-reverse;
+        
+    }
+
+    /* imagens */
+    .imagem{
+        padding: 20px;
+    }
+
+    .imagem img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    
+    .texto{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    
+
+   
+    .artistas{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .card img{
+        width: 250px;
+    }
+
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+
+        
+    }
+
+    .coluna p{
+        font-size: 8px;
+    }
+
+    .icones{
+        margin-left: 35%;
+    }
+
+}
