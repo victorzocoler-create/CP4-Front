@@ -41,14 +41,13 @@
         
     }
 
-    /* imagens */
+    
     .imagem{
         padding: 20px;
     }
 
     .imagem img{
-        width: 100%;
-        max-width: 300px;
+        width: 250px;
     }
 
     
