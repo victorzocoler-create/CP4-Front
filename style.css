@@ -6,6 +6,11 @@ h1{
     font-weight: 500;
 }
 
+h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
 p{
     font-size: 12px;
     line-height: 1.5;
@@ -58,6 +63,12 @@ body{
     border: 1px solid #00ffff;
     padding: 8px 30px;
     border-radius: 10px;
+
+    
+    &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.1);
+    }
 }
 
 .bloco{
@@ -70,6 +81,7 @@ body{
 
 h1 span{
     color: #00ffff;
+    
 
 }
 
@@ -80,18 +92,28 @@ h1 span{
 }
 
 .texto h1{
-    margin: 0 0 20px 0;
+    margin: 0 auto 20px;
 }
 
 .texto p{
-    margin: 0 0 20px 0;
+    margin: 0 auto 20px;
 }
 
 .imagem{
     border: solid hsla(287, 44%, 21%, 0.418);
     background-color: hsla(287, 44%, 21%, 0.418);
-    border-radius: 80px 0;
-    padding: 0px 80px;
+    border-radius: 45px 0;
+    padding: 0 80px;
+
+    
+    
+}
+
+.imagem img {
+    &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.02);
+    }
 }
 
 .botao {
@@ -106,6 +128,12 @@ h1 span{
     align-items: center;
     gap: 8px;
     transition: 0.3s;
+
+    
+    &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.1);
+    }
 }
 
 .botao:hover {
@@ -134,6 +162,11 @@ h1 span{
 
 .card{
     text-align: center;
+
+    &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.1);
+    }
 }
 
 .card img{
@@ -154,6 +187,11 @@ h1 span{
     justify-content:flex-start;
     gap: 60px;
     padding:60px 50px;
+}
+
+
+.coluna {
+    text-aling: center;
 }
 
 .coluna h3{

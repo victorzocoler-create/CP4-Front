@@ -1,17 +1,35 @@
 @media(max-width: 600px){
     
+    p {
+        max-width: 300px;
+        display: flex;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 26px;
+        max-width: 100%;
+    }
     
-    
+    h1 span {
+        flex: block;
+    }
+
+    h2 {
+        padding: 0px 0px 2px 0px;
+    }
+
     .menu{
         
        gap: 15px;
-       margin-right: 8%;
+       margin-right: 8px;
         
     }
 
     .logo{
         font-size: 15px;
-        margin-left: 15%;
+        margin-left: 8px;
+
     }
 
     .logo h1{
@@ -21,7 +39,7 @@
     
 
     .menu p{
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .login{
@@ -34,20 +52,20 @@
         text-align: center;
         gap: 30px;
         margin-top: 40px;
-    }
-
-    .bloco1, .bloco{
-        flex-direction: column-reverse;
         
     }
 
+    .bloco1 .bloco{
+        flex-direction: column-reverse;
+    }
+    
     
     .imagem{
-        padding: 20px;
+        padding: 20px 20px 0px 20px;
     }
 
     .imagem img{
-        width: 250px;
+        width: 200px;
     }
 
     
@@ -73,16 +91,30 @@
     .footer{
         display: flex;
         justify-content: center;
-
+        gap: 10px;
+        padding:60px 10px;
         
     }
 
+    .coluna {
+        width: 30%;
+    }
+
     .coluna p{
-        font-size: 8px;
+        font-size: 13px;
+    }
+
+    .coluna h3 {
+        font-size: 13px;
     }
 
     .icones{
         margin-left: 35%;
     }
+
+    .musicas img{
+        margin-top: 10%;
+    }
+
 
 }
